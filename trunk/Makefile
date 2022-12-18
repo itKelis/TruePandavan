@@ -31,7 +31,7 @@ endif
 #
 
 ROOTDIR        = $(shell pwd)
-HOSTCC         = gcc
+HOSTCC         = gcc -O3
 ROMFSINST      = $(ROOTDIR)/tools/romfs-inst.sh
 TFTPDIR        = /tftpboot
 PATH          := $(PATH):$(ROOTDIR)/tools
