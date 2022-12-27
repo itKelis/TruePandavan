@@ -12,7 +12,7 @@ STRIP     = strip
 STRIPTOOL = $(STRIP)
 SSTRIP_NAME = ELFkickers-3.1
 
-CFLAGS    = -Wall -O2
+CFLAGS    = -Wall -O3
 LDFLAGS   =
 
 -include $(LINUX_CONFIG)
